@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot with Voice</title>
+</head>
+<body>
+  <h2>Financial Assistant Bot- Chat with AI</h2>
+
+  <label for="user-select">Select User:</label>
+  <select id="user-select">
+    <option value="1">User 1</option>
+    <option value="2">User 2</option>
+    <option value="3">User 3</option>
+    <option value="4" selected>User 4</option>
+    <option value="5">User 5</option>
+    <option value="6">User 6</option>
+    <option value="7">User 7</option>
+  </select>
+
+  <div id="chat-box" style="height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; margin-top: 10px;"></div>
+  <input type="text" id="message" placeholder="Type or speak..." style="width: 80%;" />
+  <button onclick="sendMessage()">Send</button>
+  <button onclick="startVoice()">🎤 Speak</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
